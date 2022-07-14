@@ -1,0 +1,358 @@
+*{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+html{
+    font-size: 62%;
+    overflow-x:hidden ;
+    scroll-behavior: smooth;
+}
+header{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0.9%;
+    background: #333;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    z-index: 1000;
+}
+.logo{
+    
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+
+
+}
+.logo span{
+    color: darkorange;
+}
+.navbar{
+
+}
+.navbar a{
+    font-size: 2.7rem;
+    margin: 0 0.8rem;
+    color: white;
+    padding: 0 10px;
+
+}
+.navbar a:hover{
+    color: #f2d2c6;
+}
+.icons{
+    font-size: 2rem;
+    margin-right: -11rem;
+    color: wheat;
+
+}
+.search-bar-container input{
+    width: 21rem;
+    height: 4rem;
+    border-radius: 2rem;
+    padding: 13px;
+
+}
+.search-bar-container label{
+    font-size: 2.3rem;
+    cursor: pointer;
+
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+
+}
+.content{
+    text-align: center;
+
+}
+.content h3{
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.content p{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #fff;
+}
+.content .btn{border-radius: 20px;
+    background: orangr;
+    background: orange;
+    padding: 5px 6px;
+    line-height: 3;
+    font-size: 1.7rem;
+    
+}
+
+.video-container video{
+    
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+.book{
+    margin: 40px 20px;
+
+}
+.heading{
+    padding: 20px;
+    text-align: center;
+
+}
+.heading span{
+
+    font-size: 4rem;
+    color: orange;
+    border: 10px;
+    padding: 0px 6px;
+    background: #f2d2c6;
+    border-radius: 1px;
+
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+.image{
+    flex: 1 1 40rem;
+
+}
+.image img{
+    width: 90%;
+
+}
+.row form{
+    flex: 1 1 40rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 2rem #4b4747;
+    padding: 36px;
+
+}
+.form-box{
+    padding: 0.5rem 0;
+
+}
+.form-box h3{
+    font-size: 2rem
+    
+}
+.form-box input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    border: 0.1rem solid rgba(0,0,0,.1);
+    color: #666;
+}
+.booknow{
+    margin: 9px;
+    width: 11rem;
+    height: 4rem;
+    background: orange;
+    color: white;
+    font-size: 1.8rem;
+    border-radius: 15px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.booknow:hover{
+    background-color: whitesmoke;
+    color: orange;
+}
+/* packing */
+
+.packing{
+    margin: 22px 20px;
+
+}
+.package{
+
+    text-align-last: center;
+    padding: 37px 2px;
+
+}
+.cards{
+    display: flex;
+    margin: 25px -7px;
+}
+.package span{
+    font-size: 4rem;
+    color: orange;
+    border: 10px;
+    padding: 0px 6px;
+    background: #f2d2c6;
+    border-radius: 1px;
+
+}
+.container1 {
+    box-sizing: border-box;
+    background: #ece9e3;
+    width: 27vw;
+    height: 61vh;
+    margin: 15px 85px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+.container1 img{
+    width: 290px;
+    height: 225px;
+    padding: 5px 10px;
+    margin: 8px;
+    border-radius: 18px;
+
+}
+.container1 h4{
+    
+    font-size: 30px;
+
+}
+.container1 h4 i{
+    font-size: 17px;
+    padding-right: 11px;
+}
+.container1 p{
+
+    font-size: 15px;
+    padding: 14px;
+}
+.rating1{
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 25px;}
+
+.container1 button{
+    width: 100px;
+    height: 35px;
+    background: orange;
+    color: white;
+
+}
+.container1 button:hover{
+    background-color: whitesmoke;
+    color: orange;
+    cursor: pointer;
+}
+
+.third{
+    margin-top: 90px;
+}
+.services3{
+    font-size: 40px;
+    color: orange;
+    text-align: center;
+}
+.services3 span{border-radius: 5px;
+    padding-right: 5px;
+    background: #f2d2c6;
+    padding-left: 5px;
+
+}
+.servicesbox{
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+
+}
+.box3:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    cursor: pointer;
+
+}
+.box3{
+    flex: 1 1 37rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+.box3 i{
+    font-size: 6rem;
+    padding: 1rem;
+    color: orange;
+
+}
+.box3 p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #666;
+
+}
+.box3 h5{
+    font-size: 2.5rem;
+    color: #333;
+
+}
+.grid{    display: flex;
+    flex-wrap: wrap;
+    padding: 2px 20px;
+
+}
+.grid img{
+    width: 32vw;
+    height: 21vw;
+    padding: 10px;
+    padding-top: 37px;
+
+}
+.grid :hover{
+    box-shadow: 0 1rem 2 rem rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.gallary{
+
+
+}
+.gallary h1{    margin-top: 90px;
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+
+}
+.gallary span{
+    background: #f2d2c6;
+    padding: 2px 6px;
+    border-radius: 3px;
+
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+footer .center{
+    text-align: center;
+    padding:30px 0;
+    font-family:'Ubuntu', sans-serif ;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+ }
+ 
